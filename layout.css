@@ -1,0 +1,154 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	width: 100%;
+	background-color: #121212;
+	background-size: cover;
+	background-attachment: fixed;
+	margin: 0;
+}
+
+header {
+	width: 100%;
+	text-align: center;
+	margin-top: 30px;
+	min-height: 250px;
+}
+
+h2 {
+	font-size: 72px;
+	font-family: Tahoma;
+	color: #FFFFFF;
+	text-shadow: 1.5px 1.5px #000000;
+}
+
+h3 {
+	font-size: 24px;
+	font-family: Tahoma;
+	color: #FFFFFF;
+	text-shadow: 1px 1px #000000;
+}
+h5 {
+	font-size: 1.5em;
+	font-family: Tahoma;
+	color: #FFFFFF;
+	text-shadow: 1px 1px #000000;
+}
+p {
+	font-family: Tahoma, "sans-serif";
+	font-size: 1em;
+	color: #F0F0F0;
+}
+img {
+  max-width: 50em;
+
+}
+main {
+    background-color: #dda727;
+    width: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2%;
+    border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+	opacity: 1;
+}
+
+section {
+    background-color: #dda727;
+    width: 55%;
+    margin-bottom: 20px;
+    margin-left: 3%;
+    margin-right: .5%;
+    float: left;
+    padding: 2%;
+    border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+	opacity: 1;
+}
+
+aside {
+    background-color: #dda727;
+    width: 28%;
+    margin-bottom: 20px;
+    margin-left: .5%;
+    margin-right: 3%;
+    float: right;
+    padding: 2%;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	opacity: 1;
+}
+
+footer {
+	font-size: small;
+	text-align: center;
+	clear: both;
+}
+
+/* This is navigation */
+
+nav {
+	background-color: #dda727;
+	/*to center the nav */
+	text-align: center;
+}
+
+.navlist {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	overflow: hidden;
+}
+
+.navlistitem {
+	display: inline-block;
+}
+
+.navlistitem a {
+	text-decoration: none;
+	display: block;
+	padding-left: 16px;
+	padding-right: 16px;
+	padding-top: 14px;
+	padding-bottom: 14px;
+	color: #FFFFFF;
+	background-color: #f6bf3a;
+	font-family: "Verdana";
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+}
+
+.navlistitem a:hover {
+	color: #000000;
+	background-color: #FFFFFF;
+}
+
+/*centering the image */
+
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 50%;
+	width: 50%;
+}
+
+.center_section {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 70%;
+	width: 70%;
+}
