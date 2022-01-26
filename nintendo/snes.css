@@ -45,7 +45,7 @@ img {
 
 }
 main {
-    background-color: #1F1F1F;
+    background-color: #89869E;
     width: auto;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -53,11 +53,15 @@ main {
     margin-right: auto;
     padding: 2%;
 	border-style: outset;
-	border-color: #3B3B3B;
+	border-color: #C4C0E2;
 	border-width: 10px;
+    border-top-left-radius: 55px;
+	border-top-right-radius: 55px;
+    border-bottom-left-radius: 55px;
+    border-bottom-right-radius: 55px;
 }
 section {
-    background-color: #1F1F1F;
+    background-color: #89869E;
     width: 55%;
     margin-bottom: 20px;
     margin-left: 3%;
@@ -65,11 +69,15 @@ section {
     float: left;
     padding: 2%;
 	border-style: outset;
-	border-color: #3B3B3B;
+	border-color: #C4C0E2;
 	border-width: 10px;
+    border-top-left-radius: 55px;
+	border-top-right-radius: 55px;
+    border-bottom-left-radius: 55px;
+    border-bottom-right-radius: 55px;
 }
 aside {
-    background-color: #1F1F1F;
+    background-color: #89869E;
     width: 28%;
     margin-bottom: 20px;
     margin-left: .5%;
@@ -77,8 +85,12 @@ aside {
     float: right;
     padding: 2%;
 	border-style: outset;
-	border-color: #3B3B3B;
+	border-color: #C4C0E2;
 	border-width: 10px;
+    border-top-left-radius: 55px;
+	border-top-right-radius: 55px;
+    border-bottom-left-radius: 55px;
+    border-bottom-right-radius: 55px;
 }
 footer {
 	font-size: small;
@@ -89,7 +101,7 @@ footer {
 /* This is the navigation stuff */
 
 nav {
-	background-color: #CE1400;
+	background-color: #4C2BA0;
 	text-align: center;
 	padding: 0.01%;
 }
@@ -113,18 +125,22 @@ nav {
 	padding-top: 14px;
 	padding-bottom: 14px;
 	color: #FFFFFF;
-	background-color: #CE1400;
+	background-color: #BCB4FD;
 	font-family: "Bahnschrift";
 	text-shadow: 2px 2px #000000;
 	border-style: outset;
-	border-color: #DB6053;
+	border-color: #DAD3FC;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
 
 .navlistitem a:hover {
 	color: #000000;
 	text-shadow: 2px 2px #FFFFFF;
-	background-color: #DB6053;
-	border-color: #CE1400;
+	background-color: #DAD3FC;
+	border-color: #BCB4FD;
 }
 
 /*centering the image */

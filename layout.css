@@ -39,13 +39,34 @@ p {
 	color: #FFFFFF;
 	text-shadow: 1px 1px 2px #000000;
 }
+a:link, a:visited,  a:hover, a:active
+{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+button {
+  border: none;
+  background-color: #BC6225;
+  padding: 15px 32px;
+  font-family: Impact;
+  text-shadow: 1.5px 1.5px 2px #000000;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-style: outset;
+  border-color: #BC6E3A;
+  border-width: 5px;
+}
 img {
   max-width: 50em;
   margin: 25px;
 
 }
 main {
-    background-color: #dda727;
+    background-color: #D8A222;
     width: auto;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -53,11 +74,11 @@ main {
     margin-right: auto;
     padding: 2%;
 	border-style: outset;
-	border-color: #E2BA5D;
+	border-color: #EFC258;
 	border-width: 10px;
 }
 section {
-    background-color: #dda727;
+    background-color: #D8A222;
     width: 55%;
     margin-bottom: 20px;
     margin-left: 3%;
@@ -65,11 +86,11 @@ section {
     float: left;
     padding: 2%;
 	border-style: outset;
-	border-color: #E2BA5D;
+	border-color: #EFC258;
 	border-width: 10px;
 }
 aside {
-    background-color: #dda727;
+    background-color: #D8A222;
     width: 28%;
     margin-bottom: 20px;
     margin-left: .5%;
@@ -77,7 +98,7 @@ aside {
     float: right;
     padding: 2%;
 	border-style: outset;
-	border-color: #E2BA5D;
+	border-color: #EFC258;
 	border-width: 10px;
 }
 footer {
@@ -91,6 +112,7 @@ footer {
 nav {
 	background-color: #BC6225;
 	text-align: center;
+	padding: 0.01%;
 }
 
 .navlist {
