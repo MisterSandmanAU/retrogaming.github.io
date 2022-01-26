@@ -3,31 +3,28 @@
 
 body {
 	width: 100%;
-	background-color: #121212;
+	background-color: #9185FF;
 	background-size: cover;
 	background-attachment: fixed;
 	margin: 0;
 }
-
 header {
 	width: 100%;
 	text-align: center;
 	margin-top: 30px;
 	min-height: 250px;
 }
-
 h2 {
-	font-size: 72px;
+	font-size: 36px;
 	font-family: Tahoma;
 	color: #FFFFFF;
-	text-shadow: 1.5px 1.5px #000000;
+	text-shadow: 1.5px 1.5px 2px #000000;
 }
-
 h3 {
 	font-size: 24px;
 	font-family: Tahoma;
 	color: #FFFFFF;
-	text-shadow: 1px 1px #000000;
+	text-shadow: 1px 1px 2px #000000;
 }
 h5 {
 	font-size: 1.5em;
@@ -36,9 +33,11 @@ h5 {
 	text-shadow: 1px 1px #000000;
 }
 p {
-	font-family: Helvetica, "sans-serif";
-	font-size: 1em;
+	font-weight: bold;
+	font-size: 1.10em;
+	font-family: Tahoma;
 	color: #FFFFFF;
+	text-shadow: 1px 1px 2px #000000;
 }
 img {
   max-width: 50em;
@@ -52,13 +51,10 @@ main {
     margin-left: auto;
     margin-right: auto;
     padding: 2%;
-    border-top-left-radius: 15px;
-	border-top-right-radius: 15px;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
-	opacity: 1;
+	border-style: outset;
+	border-color: #E2BA5D;
+	border-width: 10px;
 }
-
 section {
     background-color: #dda727;
     width: 55%;
@@ -67,13 +63,10 @@ section {
     margin-right: .5%;
     float: left;
     padding: 2%;
-    border-top-left-radius: 15px;
-	border-top-right-radius: 15px;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
-	opacity: 1;
+	border-style: outset;
+	border-color: #E2BA5D;
+	border-width: 10px;
 }
-
 aside {
     background-color: #dda727;
     width: 28%;
@@ -82,24 +75,20 @@ aside {
     margin-right: 3%;
     float: right;
     padding: 2%;
-	border-top-left-radius: 15px;
-	border-top-right-radius: 15px;
-	border-bottom-left-radius: 15px;
-	border-bottom-right-radius: 15px;
-	opacity: 1;
+	border-style: outset;
+	border-color: #E2BA5D;
+	border-width: 10px;
 }
-
 footer {
 	font-size: small;
 	text-align: center;
 	clear: both;
 }
 
-/* This is navigation */
+/* This is the navigation stuff */
 
 nav {
-	background-color: #dda727;
-	/*to center the nav */
+	background-color: #BC6225;
 	text-align: center;
 }
 
@@ -126,13 +115,13 @@ nav {
 	font-family: "Impact";
 	text-shadow: 2px 2px #000000;
 	border-style: outset;
-	border-color: #AC6535;
+	border-color: #BC6E3A;
 }
 
 .navlistitem a:hover {
 	color: #000000;
 	text-shadow: 2px 2px #FFFFFF;
-	background-color: #AC6535;
+	background-color: #BC6E3A;
 	border-color: #A65A27;
 }
 
