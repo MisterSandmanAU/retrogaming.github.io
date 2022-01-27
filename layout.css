@@ -1,0 +1,167 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	width: 100%;
+	background-color: #9185FF;
+	background-size: cover;
+	background-attachment: fixed;
+	margin: 0;
+}
+header {
+	width: 100%;
+	text-align: center;
+	margin-top: 30px;
+	min-height: 250px;
+}
+h2 {
+	font-size: 42px;
+	font-family: Tahoma;
+	color: #FFFFFF;
+	text-shadow: 1.5px 1.5px 2px #000000;
+}
+h3 {
+	font-size: 34px;
+	font-family: Tahoma;
+	color: #FFFFFF;
+	text-shadow: 1px 1px 2px #000000;
+}
+h5 {
+	font-size: 1.5em;
+	font-family: Tahoma;
+	color: #FFFFFF;
+	text-shadow: 1px 1px #000000;
+}
+p {
+	font-weight: bold;
+	font-size: 1.10em;
+	font-family: Tahoma;
+	color: #FFFFFF;
+	text-shadow: 1px 1px 2px #000000;
+}
+a:link, a:visited,  a:hover, a:active
+{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+button {
+  border: none;
+  background-color: #BC6225;
+  padding: 15px 32px;
+  font-family: Impact;
+  text-shadow: 1.5px 1.5px 2px #000000;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-style: outset;
+  border-color: #BC6E3A;
+  border-width: 5px;
+}
+img {
+  max-width: 50em;
+  margin: 25px;
+
+}
+main {
+    background-color: #D8A222;
+    width: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2%;
+	border-style: outset;
+	border-color: #EFC258;
+	border-width: 10px;
+}
+section {
+    background-color: #D8A222;
+    width: 55%;
+    margin-bottom: 20px;
+    margin-left: 3%;
+    margin-right: .5%;
+    float: left;
+    padding: 2%;
+	border-style: outset;
+	border-color: #EFC258;
+	border-width: 10px;
+}
+aside {
+    background-color: #D8A222;
+    width: 28%;
+    margin-bottom: 20px;
+    margin-left: .5%;
+    margin-right: 3%;
+    float: right;
+    padding: 2%;
+	border-style: outset;
+	border-color: #EFC258;
+	border-width: 10px;
+}
+footer {
+	font-size: small;
+	text-align: center;
+	clear: both;
+}
+
+/* This is the navigation stuff */
+
+nav {
+	background-color: #BC6225;
+	text-align: center;
+	padding: 0.01%;
+}
+
+.navlist {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	overflow: hidden;
+}
+
+.navlistitem {
+	display: inline-block;
+}
+
+.navlistitem a {
+	text-decoration: none;
+	display: block;
+	padding-left: 16px;
+	padding-right: 16px;
+	padding-top: 14px;
+	padding-bottom: 14px;
+	color: #FFFFFF;
+	background-color: #A65A27;
+	font-family: "Bahnschrift";
+	text-shadow: 2px 2px #000000;
+	border-style: outset;
+	border-color: #BC6E3A;
+}
+
+.navlistitem a:hover {
+	color: #000000;
+	text-shadow: 2px 2px #FFFFFF;
+	background-color: #BC6E3A;
+	border-color: #A65A27;
+}
+
+/*centering the image */
+
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 50%;
+	width: 50%;
+}
+
+.center_section {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 70%;
+	width: 70%;
+}
